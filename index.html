@@ -1,0 +1,52 @@
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-white text-gray-900 px-6 py-10">
+      <header className="max-w-4xl mx-auto mb-12">
+        <h1 className="text-5xl font-bold mb-2">Cosmin Anton</h1>
+        <p className="text-lg text-gray-600">Full-Stack Developer | Software Engineer | Tech Enthusiast</p>
+      </header>
+
+      <section className="max-w-4xl mx-auto mb-16">
+        <h2 className="text-2xl font-semibold mb-4">About Me</h2>
+        <p className="text-gray-700 leading-relaxed">
+          I’m a passionate developer with a strong focus on building scalable web applications and exploring new technologies. With a deep understanding of both front-end and back-end development, I aim to deliver clean, efficient, and maintainable code.
+        </p>
+      </section>
+
+      <section className="max-w-4xl mx-auto mb-16">
+        <h2 className="text-2xl font-semibold mb-4">Skills</h2>
+        <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-gray-700">
+          <li>JavaScript / TypeScript</li>
+          <li>React / Next.js</li>
+          <li>Node.js / Express</li>
+          <li>Python / Django</li>
+          <li>PostgreSQL / MongoDB</li>
+          <li>Git / CI/CD</li>
+        </ul>
+      </section>
+
+      <section className="max-w-4xl mx-auto mb-16">
+        <h2 className="text-2xl font-semibold mb-4">Projects</h2>
+        <div className="space-y-6">
+          <div>
+            <h3 className="text-xl font-bold">Project One</h3>
+            <p className="text-gray-700">A full-stack web app designed for task management, featuring real-time collaboration and user authentication.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold">Project Two</h3>
+            <p className="text-gray-700">An e-commerce platform built with Next.js and Stripe API, supporting dynamic inventory and secure checkout.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-4xl mx-auto mb-16">
+        <h2 className="text-2xl font-semibold mb-4">Contact</h2>
+        <p className="text-gray-700">Reach out via <a href="mailto:cosmin@example.com" className="text-blue-600 underline">cosmin@example.com</a></p>
+      </section>
+
+      <footer className="text-center text-gray-500 mt-12">
+        &copy; {new Date().getFullYear()} Cosmin Anton. All rights reserved.
+      </footer>
+    </div>
+  );
+}
